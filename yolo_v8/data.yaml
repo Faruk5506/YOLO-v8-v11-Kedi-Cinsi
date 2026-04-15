@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['41', 'british shorthair', 'e', 'kediler', 'sarman']
+
+roboflow:
+  workspace: mehmets-workspace-bqdgq
+  project: kedi_cinsi_projesi
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/mehmets-workspace-bqdgq/kedi_cinsi_projesi/3
